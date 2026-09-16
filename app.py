@@ -151,7 +151,7 @@ def majorlogin_jwt():
         serialized_data = game_data.SerializeToString()
         encrypted_data = encrypt_message(serialized_data)
 
-        url = "https://loginbp.ggblueshark.com/MajorLogin"
+        url = "https://loginbp.ppmainecoonghj.com/MajorLogin"
         headers = {
             "User-Agent": "Dalvik/2.1.0 (Linux; U; Android 9; ASUS_Z01QD Build/PI)",
             "Connection": "Keep-Alive",
